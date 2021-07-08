@@ -1,0 +1,117 @@
+body{
+      background-color: #393939;
+}
+*{
+      padding: 0;
+      margin: 0;
+}
+h1{
+      color: whitesmoke;
+      font-family: inherit;
+      font-weight: inherit;
+      background-color: #393939;
+      font-size: 70px;
+      text-align: center;  
+        
+}
+h2{
+      color: whitesmoke;
+      font-family: inherit;
+      font-weight: inherit;
+      background-color: #393939;
+      font-size: 45px;
+      margin-top: 10px;
+      margin-bottom: 50px;
+      text-align: center;     
+}
+h1:hover{
+      color: gold;
+      background-position: 0% 100%;
+}
+.SowN{
+
+      padding-left: 100px;
+      padding-right: 100px;
+      background: #393939;
+
+}
+.about article{
+      display: flex;
+      padding: 10px 75px 10px 75px;
+      overflow: hidden;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      text-decoration: none;
+      font-size: 50px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      border-radius: 15px;
+      font-family: inherit;
+      font-weight: inherit;
+      background-size: 100% 200%;
+      background-position: 0% 5%;
+      transition: 0.5s;
+}
+.icon{
+      margin-right: 10px;
+      overflow: hidden;
+      justify-items: flex-start;
+}
+.about a{
+      display: flex;
+      padding: 10px 75px 10px 75px;
+      overflow: hidden;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      text-decoration: none;
+      font-size: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+      border-radius: 15px;
+      font-family: inherit;
+      font-weight: inherit;
+      background-size: 100% 200%;
+      background-position: 0% 5%;
+      transition: 0.5s;
+}
+div.Avatar{
+      text-align: center;
+      background-color: #393939;
+}
+div.Avatar img{
+      width: 200px;
+      height: auto;
+      border-radius: 100%;
+}
+.about a:nth-child(1){
+      color: #1976d3;
+      background-image: linear-gradient(#fff 50%,#1976d3 50%);
+      }
+.about a:nth-child(4){
+      color: black;
+      background-image: linear-gradient(#fff 50%,black 50%);
+}
+i .fab fa-linkedin{
+      left: 0px;
+}
+.about a:nth-child(5){
+      color: #0a66c2 ;
+      background-image: linear-gradient(#fff 50%,#0a66c2 50%);
+}
+.about article{
+      color: rgb(45, 43, 43) ;
+      background-image: linear-gradient(#fff 50%,#111 50%);
+}
+.about article:hover{
+      background-position: 0% 100%;
+      color:#fff;
+}
+.about a:hover{
+      background-position: 0% 100%;
+      color:#fff;
+}
